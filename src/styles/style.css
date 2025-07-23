@@ -1,0 +1,196 @@
+/* Typography */
+.merriweather {
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Background Colors */
+.bg-color {
+  background: linear-gradient(90deg, rgb(0, 51, 102) 0%, rgb(179, 229, 252) 100%) !important;
+}
+
+.bg-theme-dark {
+  background-color: #003366 !important;
+  color: #fff !important;
+}
+
+.bg-grays {
+  background-color: #e0e7ef !important;
+}
+
+.facts {
+  background-image: linear-gradient(90deg, #b3e5fc 0%, #003366 100%);
+}
+
+/* Text Colors */
+.text-main {
+  color: #b3e5fc !important;
+}
+
+.text-second {
+  color: #003366 !important;
+}
+
+.text-title {
+  color: #003366 !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+/* Headings */
+section h2 {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 44px;
+  letter-spacing: 0;
+  color: #003366;
+}
+
+/* Link Hover Styling */
+.link h3:hover {
+  color: #003366 !important;
+}
+
+.mail a {
+  color: rgb(85, 79, 79) !important;
+}
+
+.mail a:hover {
+  color: rgb(61, 61, 202) !important;
+}
+
+.widget-title {
+  color: white;
+}
+
+.widget ul li a:hover {
+  text-decoration: underline !important;
+  color: white !important;
+}
+
+/* Hero Section */
+.hero {
+  background: url('/img/hero-bg.webp') center right / cover no-repeat;
+}
+
+.hero h1,
+.hero h3,
+.hero p,
+.hero .btn {
+  color: #003366 !important;
+}
+
+.hero .btn {
+  border: 2px solid #003366 !important;
+}
+
+.hero .btn:hover {
+  background-color: #003366;
+  color: #fff !important;
+  border: 2px solid #003366 !important;
+}
+
+/* Counter Cards */
+.counter-cards {
+  transition: transform 0.3s ease-in-out;
+}
+
+.counter-cards:hover {
+  cursor: pointer;
+  transform: translateY(-10px) !important;
+}
+
+/* Image Swap on Hover */
+.image-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.default-image,
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-image {
+  opacity: 0;
+}
+
+.cards:hover .default-image {
+  opacity: 0;
+}
+
+.cards:hover .hover-image {
+  opacity: 1;
+}
+
+/* Navigation Styles */
+.nav-item .nav-link,
+.dropdown-item {
+  font-family: 'Merriweather', serif;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #343f52 !important;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0.1rem !important;
+  border-bottom: 3px solid #003366;
+  margin-left: var(--bs-navbar-nav-link-padding-x);
+  margin-right: var(--bs-navbar-nav-link-padding-x);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.navbar-nav .nav-link:focus,
+.dropdown-item.active {
+  color: #343f52 !important;
+  padding-bottom: 0.1rem !important;
+  border-bottom: 3px solid #003366;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #b3e5fc !important;
+}
+
+.navbar-nav .nav-link.show {
+  color: #b3e5fc !important;
+}
+
+/* Sticky Nav */
+.sticky-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.is-sticky .navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-clone {
+  top: 44px !important;
+}
+
+.topbar {
+  display: block;
+}
+
+.navbar-expand-lg.transparent:not(.fixed) {
+  padding-top: 0 !important;
+}

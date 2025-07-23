@@ -1,0 +1,55 @@
+/* ========== Responsive: ≤992px ========== */
+@media (max-width: 992px) {
+  .offcanvas-nav {
+    background: linear-gradient(250deg, #003366 0%, #b3e5fc 100%);
+  }
+
+  .navbar-expand-lg .navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+/* ========== Responsive: ≤768px ========== */
+@media (max-width: 768px) {
+  .topbar {
+    display: none !important;
+  }
+
+  .navbar-clone {
+    top: 0 !important;
+  }
+
+  .sticky-wrapper {
+    position: relative !important;
+  }
+
+  .hero {
+    background: url('/img/hero-bg.webp') no-repeat center/contain;
+  }
+
+  .hero-text {
+    max-width: 100% !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 36px !important;
+  }
+
+  .hero-text h3 {
+    font-size: 24px !important;
+  }
+
+  .hero-text p {
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+
+  .hero-text .btn {
+    padding: 8px !important;
+    margin-bottom: 10px;
+  }
+}
